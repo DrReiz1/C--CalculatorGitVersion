@@ -11,8 +11,6 @@ class Program
         Console.WriteLine("Insert the second number");
         int number2 = Convert.ToInt32(Console.ReadLine());
 
-        int results = 0;
-
         Console.WriteLine("Select the logical operation you want to execute:");
         Console.WriteLine("1. Addition");
         Console.WriteLine("2. Subtraction");
@@ -39,8 +37,7 @@ class Program
             break;
 
             case 3:
-            Console.WriteLine();
-            results = number1 * number2;
+            Console.WriteLine(number1 * number2);
             break;
 
             case 4:
